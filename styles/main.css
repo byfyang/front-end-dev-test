@@ -1,3 +1,5 @@
+/*general*/
+
 * {
 	font-family: Roboto;
 	font-size: 14px;
@@ -59,7 +61,6 @@ button{
 	height: 45px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	
 }
 
 /*carousel section*/
@@ -135,6 +136,8 @@ button{
 	display: block;
 }
 
+/*second section*/
+
 .second-section{
 	margin-top: 7em;
 }
@@ -160,7 +163,25 @@ button{
 .statistics {
 	font-size: 55px;
 	letter-spacing: 2px; 
+
 }
+
+.statistics:hover {
+	-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon 1.5s ease-in-out infinite alternate;
+	animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #F7931D, 0 0 70px #F7931D, 0 0 80px #F7931D, 0 0 100px #F7931D, 0 0 150px #F7931D;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #F7931D, 0 0 35px #F7931D, 0 0 40px #F7931D, 0 0 50px #F7931D, 0 0 75px #F7931D;
+  }
+}
+
 
 .numColumn {
 	text-align: center;
@@ -172,6 +193,8 @@ button{
 	margin-top:auto;
 	margin-bottom:auto;
 }
+
+/*modal content form */
 
 .form-group{
 	text-align: left;
