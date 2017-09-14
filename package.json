@@ -29,6 +29,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "scrollreveal": "^3.3.6"
   }
 }
