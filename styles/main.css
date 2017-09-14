@@ -4,6 +4,7 @@
 	line-height: 20px;
 }
 
+
 .heroTitle{
 	font-size: 48px;
 	color: white;
@@ -37,7 +38,7 @@ button{
     color: white;
 }
 
-.row{
+#main-row{
 	margin: 2em;
 	padding-bottom: 4em;
 }
@@ -65,25 +66,23 @@ button{
 
 .carouselSection{
 	background-color: black;
-	height: 509px;
+	max-height: 509px;
 	width: 100%;
 	margin-bottom: 4%;
 }
 
-.carouselSection img{
-	max-height: 509px;
-	width: auto;
-}
-
 .carousel-item img{
 	margin: auto;
+	max-height:509px;
+	width: auto;
+	height: auto;
 }
 
 .carouselText{
 	text-align: center;
 	color: white;
 	z-index: 999999;
-	margin-top: -8%;
+	margin-top: -10%;
 	margin-left: 20%;
 	position: absolute;
 
@@ -116,7 +115,8 @@ button{
 }
 
 .content p{
-	padding-top: 25px;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 #page-icon{
 	margin: 5%;
@@ -130,7 +130,7 @@ button{
 	padding-right: 10%;
 	padding-left:10%;
 	color: white;
-	font-size:28px;
+	font-size:22px;
 	line-height: 30px;
 	display: block;
 }
@@ -139,8 +139,17 @@ button{
 	margin-top: 7em;
 }
 
+.second-section p{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
 .second-section h1{
 	text-align: center;
+}
+
+.second-section h3{
+	margin-top: 1em;
 }
 
 
@@ -150,11 +159,24 @@ button{
 
 .statistics {
 	font-size: 55px;
-	letter-spacing: 2px;
+	letter-spacing: 2px; 
 }
 
 .numColumn {
 	text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.checkbox{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.form-group{
+	text-align: left;
+}
+
+.form-content{
+	margin: 1em;
 }
