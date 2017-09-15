@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roostergrin/front-end-dev-test"
+    "url": "https://github.com/byfyang/front-end-dev-test"
   },
-  "author": "Rooster Grin",
+  "author": "Benjamin Yang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roostergrin/front-end-dev-test/issues"
+    "url": "https://github.com/byfyang/front-end-dev-test/issues"
   },
-  "homepage": "https://github.com/roostergrin/front-end-dev-test",
+  "homepage": "https://github.com/byfyang/front-end-dev-test",
   "devDependencies": {
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",

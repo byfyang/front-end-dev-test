@@ -1,5 +1,4 @@
 /*general*/
-
 * {
 	font-family: Roboto;
 	font-size: 14px;
@@ -65,7 +64,6 @@ button{
 }
 
 /*carousel section*/
-
 .carouselSection{
 	background-color: black;
 	max-height: 509px;
@@ -87,7 +85,6 @@ button{
 	margin-top: -10%;
 	margin-left: 20%;
 	position: absolute;
-
 }
 
 .carouselButton{
@@ -104,7 +101,6 @@ button{
 }
 
 /*first section*/
-
 .first-section{
 	background-image: url("/styles/img/slanted-gradient-background.svg");
 	color: white;
@@ -112,6 +108,7 @@ button{
 	background-size: 100%;
 	max-height: 253px;
 }
+
 .content{
 	display:flex;
 }
@@ -138,7 +135,6 @@ button{
 }
 
 /*second section*/
-
 .second-section{
 	margin-top: 7em;
 }
@@ -156,7 +152,6 @@ button{
 	margin-top: 1em;
 }
 
-
 .third-section h1{
 	text-align: center;
 }
@@ -164,7 +159,6 @@ button{
 .statistics {
 	font-size: 55px;
 	letter-spacing: 2px; 
-
 }
 
 .statistics:hover {
@@ -196,7 +190,6 @@ button{
 }
 
 /*modal content form */
-
 .form-group{
 	text-align: left;
 }
@@ -216,12 +209,19 @@ button{
 	padding-right: 35px;
 	padding-left: 35px;
 	padding-bottom: 45px;
+	margin-bottom: 2em;
 }
 
 .footer.container{
 	margin-bottom: 3em;
 }
 
+.footer h2{
+	color: white;
+	font-weight: bold;
+}
+
+/*media selectors*/
 @media (max-width: 991px){
 	p.heroTitle{
 		font-size: 32px;
@@ -230,6 +230,11 @@ button{
 	.first-section p{
 		font-size: 14px;
 		line-height: 1em;
+		padding-top: 4%;
+	}
+
+	.first-section {
+		max-height: 253px;
 	}
 
 	.second-section h3{
